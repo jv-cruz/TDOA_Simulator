@@ -8,8 +8,8 @@ error = 1e-6;
 f1 = [1000 0];
 f2 = [-1000 0];
 f3 = [0 1000];
-p = [500 500];
-
+p = [200 200];
+ 
 d1 = calc_dist(f1,p);
 d2 = calc_dist(f2,p);
 d3 = calc_dist(f3,p);
@@ -26,3 +26,4 @@ hold on
 hyperbola(f1,f3,t1,t3);
 hold on
 end
+grid on
