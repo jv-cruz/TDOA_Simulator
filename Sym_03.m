@@ -19,9 +19,7 @@ hold on
 plot(p(1),p(2),'r*');
 hold on
 
-d1 = calc_dist(f1,p);
-d2 = calc_dist(f2,p);
-d3 = calc_dist(f3,p);
+c
 
 
 
